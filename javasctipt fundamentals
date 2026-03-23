@@ -1,0 +1,40 @@
+<main>
+
+    <!-- About -->
+    <section>
+        <h2>About This Project</h2>
+        <p>This project is created by a passionate web developer 🌍</p>
+        <p>This project is safe 💥</p>
+        <p>This project is easy to use and reliable 💯</p>
+    </section>
+
+    <!-- Calculator -->
+    <section>
+        <h2>🧮 Calculator</h2>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+
+        <br><br>
+
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+
+        <h3 id="result">Result: </h3>
+    </section>
+
+    <!-- Student Grade Tracker -->
+    <section>
+        <h2>🎓 Student Grade Tracker</h2>
+
+        <input type="text" id="studentName" placeholder="Student Name">
+        <input type="number" id="studentScore" placeholder="Score">
+
+        <button onclick="addStudent()">Add Student</button>
+        <button onclick="showStudents()">Show Students</button>
+
+        <ul id="studentList"></ul>
+    </section>
+
+</main>
